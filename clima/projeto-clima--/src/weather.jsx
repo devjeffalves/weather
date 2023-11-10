@@ -6,7 +6,7 @@ const Weather = () => {
   const [city, setCity] = useState("");
   const [weatherData, setWeatherData] = useState(null);
 
-  const apiKey = "f9fa0a6b3829f38ebe1f0f7757b3eb1e";
+  const apiKey = "acf880fe2e9b07e5acd5d5b43bc22222";
   const urlBase = "https://api.openweathermap.org/data/2.5/weather?q=";
   const imgUrl = "https://openweathermap.org/img/wn/";
 
